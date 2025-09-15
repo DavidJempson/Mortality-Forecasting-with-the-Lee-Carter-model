@@ -1,4 +1,4 @@
-# Mortality-Forecasting-with-the-Lee-Carter-model
+# Mortality Forecasting with the Lee Carter Model
 In this project, I used publicly available data from the Human Mortality Database to forecast UK mortality rates. It uses historical data to fit the model using Singular Vaue Decomposition, forecasts the mortality trend using an ARIMA time series model, and then can create generation life tables. As an example application, I have included a function to calculate the net cost of an insurance premium with arbitrary inputs.
 
 ## Methodology
