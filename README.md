@@ -19,4 +19,4 @@ Interestingly, the insurance premium calculation often gave similar prices to wh
 Simply download the python file main.py and the data files to the same directory, and run. I was using python 3.13.
 
 ## Data Sources
-Mortality data was obtained from the Human Mortality Database (https://www.mortality.org). 
+Mortality data was obtained from the Human Mortality Database (https://www.mortality.org). I downloaded the yearly deaths and exposures files, and only used the data from 1950 to 2022.
