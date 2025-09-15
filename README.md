@@ -3,7 +3,7 @@ In this project, I used publicly available data from the Human Mortality Databas
 
 ## Methodology
 1.  **Data Preparation:** Sourced and cleaned death and exposure data from the Human Mortality Database for UK males and females (1950-2022).
-2.  **Model Fitting:** Estimated the core Lee-Carter parameters (a_x, b_x, k_t) using SVD on the log-mortality matrix.
+2.  **Model Fitting:** Estimated the core Lee-Carter parameters (a<sub>x</sub>, b<sub>x</sub>, k<sub>t</sub>) using SVD on the log-mortality matrix.
 3.  **Time Series Forecasting:** Modelled the resulting k_t time series as a random walk with drift (ARIMA(0,1,0)) to forecast the mortality trend to 2050.
 4.  **Life Table Construction:** Recombined the parameters to build a projected period life table for 2050 and a generation life table for the 1980 birth cohort.
 5.  **Insurance Premium Calculation** Calculated the Expected Present Value (EPV) of the benefit and premiums to find the net price of an insurance policy for anyone of a given age and sex, wanting a premium with a given term and sum assured.
